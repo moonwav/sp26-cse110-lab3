@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting minutes for the Pomodoro Timer team brainstorming session.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Meeting Minutes: Pomodoro Timer Brainstorm</title>
+</head>
+<body>
+
+    <header>
+        <h1>Pomodoro Timer Project</h1>
+        <h2>First Brainstorming Session</h2>
+        <h3>Date: October 24, 2023</h3>
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#multimedia">Media</a></li>
+                <li><a href="#feedback">Feedback Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="attendance">
+            <h2>Attendance List</h2>
+            <ul>
+                <li><strong>John Doe</strong> - Project Manager</li>
+                <li><em>Jane Smith</em> - Lead Developer</li>
+                <li><b>Alex Rivera</b> - UI Designer</li>
+                <li><span>Sam Wilson</span> - QA Tester</li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <h2>Meeting Agenda</h2>
+            <ol>
+                <li>Review project scope</li>
+                <li>Discuss color palette</li>
+                <li>Finalize countdown logic</li>
+            </ol>
+        </section>
+
+        <section id="unfinished-business">
+            <h2>Unfinished Business</h2>
+            <p>We still need to decide if we are supporting <i>Internet Explorer 11</i> (hopefully not!).</p>
+        </section>
+
+        <section id="new-business">
+            <h2>New Business</h2>
+            <details>
+                <summary>Click to view Brainstorming Details</summary>
+                <p>The team agreed to use a "Tomato Red" theme for the primary timer state.</p>
+            </details>
+            <div>
+                <p>Important Note: <strong>All deadlines</strong> are final as of this Friday.</p>
+            </div>
+        </section>
+
+        <section id="multimedia">
+            <h2>Diagrams & Media</h2>
+            <h3>Architecture Diagram</h3>
+            <img src="https://via.placeholder.com/400x200" alt="A simple flowchart showing the timer logic" width="400">
+            
+            <br>
+
+            <h3>Audio Recording</h3>
+            <audio controls src="meeting-audio.mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Recording</h3>
+            <video controls width="320" src="meeting-video.mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <hr>
+
+        <section id="feedback">
+            <h2>Team Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                    <label for="date">Today's Date:</label>
+                    <input type="date" id="date" name="date"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Meeting Evaluation</legend>
+                    <p>Was this meeting productive?</p>
+                    <input type="radio" id="yes" name="productive" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="productive" value="no">
+                    <label for="no">No</label><br><br>
+
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Email me the summary</label><br><br>
+
+                    <label for="browser-choice">Which browser do you use?</label>
+                    <input list="browsers" id="browser-choice" name="browser">
+                    <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                        <option value="Edge">
+                    </datalist><br><br>
+
+                    <label for="department">Department:</label>
+                    <select id="department" name="department">
+                        <option value="eng">Engineering</option>
+                        <option value="design">Design</option>
+                        <option value="mgmt">Management</option>
+                    </select><br><br>
+
+                    <label for="comments">Additional Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+                    <button type="submit">Submit Feedback</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Pomodoro Team. Built with raw HTML.</p>
+    </footer>
+
+</body>
+</html>
