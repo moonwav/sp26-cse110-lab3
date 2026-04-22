@@ -1,19 +1,34 @@
-# Standup Notes
+# 🧍 Daily Standup Notes
 
-## Date:
-[Enter Date]
+**Date:**  
+**Time:**
+**Name:**  
 
-## Name:
-[Your Name]
+---
 
-## What did I do yesterday?
+## ✅ Yesterday
+What did you accomplish since the last standup?
+
 - 
 
-## What will I do today?
+---
+
+## 🚧 Today
+What are you planning to work on?
+
 - 
 
-## Blockers
+---
+
+## ⛔ Blockers
+Is anything slowing you down or preventing progress?
+
+- None  
 - 
 
-## Notes
+---
+
+## 💡 Additional Notes
+(Optional updates, ideas, or context)
+
 - 
