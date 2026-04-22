@@ -23,7 +23,7 @@ What are you planning to work on?
 ## ⛔ Blockers
 Is anything slowing you down or preventing progress?
 
-- None  
+- 
 - 
 
 ---
