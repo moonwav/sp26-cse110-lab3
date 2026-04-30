@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Meeting Minutes: Pomodoro Timer Brainstorm</title>
-    <style>
-      h4 {
-        color: purple;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<p style="color: red;">Inline styled text</p>
+    <p style="color: red;">CSE110-Lab3</p>
     <header>
         <h1>Pomodoro Timer Project</h1>
         <h2>First Brainstorming Session</h2>
         <h3>Date: April 21, 2026</h3>
         <nav>
-            <ul>
+            <ul class="nav">
                 <li><a href="#attendance">Attendance</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#multimedia">Media</a></li>
@@ -31,8 +32,8 @@
 
     <hr>
 
-    <main>
-        <section id="attendance">
+    <main id="main">
+        <section id="attendance" class="card">
             <h2>Attendance List</h2>
             <ul>
                 <li><strong>John Doe</strong> - Project Manager</li>
@@ -42,7 +43,7 @@
             </ul>
         </section>
 
-        <section id="agenda">
+        <section id="agenda" class="card">
             <h2>Meeting Agenda</h2>
             <ol>
                 <li>Review project scope</li>
@@ -63,14 +64,14 @@
                 <p>The team agreed to use a "Tomato Red" theme for the primary timer state.</p>
             </details>
             <div>
-                <p>Important Note: <strong>All deadlines</strong> are final as of this Friday.</p>
+                <p>Important Note: <strong>All deadlines</strong> are final as of this Tuesday.</p>
             </div>
         </section>
 
-        <section id="multimedia">
+        <section id="multimedia" class="card">
             <h2>Diagrams & Media</h2>
             <h3>Architecture Diagram</h3>
-            <img src="https://via.placeholder.com/400x200" alt="A simple flowchart showing the timer logic" width="400">
+            <img src="screenshots/example.png" alt="A simple flowchart showing the timer logic" width="400">
             
             <br>
 
@@ -83,6 +84,24 @@
             <video controls width="320" src="meeting-video.mp4">
                 Your browser does not support the video element.
             </video>
+        </section>
+
+        <section id="layouts">
+            <h2>Layout</h2>
+        
+            <h3>Flexbox</h3>
+            <div class="flex-container">
+                <div>Task A</div>
+                <div>Task B</div>
+                <div>Task C</div>
+            </div>
+        
+            <h3>Grid</h3>
+            <div class="grid-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
         </section>
 
         <hr>
@@ -138,7 +157,7 @@
     <hr>
 
     <footer>
-        <p>&copy; 2026 Pomodoro Team. Built with raw HTML.</p>
+        <p>&copy; 2026 Pomodoro Team.</p>
     </footer>
 
 </body>
